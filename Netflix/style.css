@@ -1,0 +1,133 @@
+body{
+    margin-right: 0px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    background-color: #000000;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    position: sticky;   /*these three things are required to make sticky header*/
+    top: 0;
+    z-index: 1000;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    padding-left: 1490px;
+}
+button{
+    cursor: pointer;
+}
+.right button{
+    color:white;
+    background-color: black;
+    border: none;
+    font-size: 32px;
+}
+.search-button{
+    padding-right: 60px;
+}
+.menu-button{
+    margin: 0px;
+    padding-top: 0px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 32px;
+    padding-right: 25px;
+}
+.logo{
+    height:40px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 100vw;
+    background-image: url('https://ew.com/thmb/ZgErQyMBADXm54Oq7DwhHNXT33c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rev-1-gkm-fp-128r_high_res_jpeg-2000-da10817f5cc14828ab342c4283da7426.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire div */
+    /* background-position: center;  */
+    /* background-repeat: no-repeat; */
+    /* border: 2px solid #fff; */
+}
+.name{
+    height:40%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.x{
+    padding-left: 15px;
+    font-family: 'Netflix Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.botban {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column; /* Changed to column to stack items vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+    height: 80%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
+    padding-left: 30px;
+}
+.play{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgba(56, 54, 54, 0.5); /* Button background color */
+    border: none;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+.mylist{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgba(56, 54, 54, 0.5); /* Button background color */
+    border: none;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+}
+.intro{
+    font-size: 25px;
+    color: white;
+    font-weight: 100px;
+    font-family: 'Netflix Sans', Arial, sans-serif;
+}
+.buw{
+    margin-top: 5px;
+    height:400px;
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    cursor: pointer;
+    width:275px;
+    height:375px;
+}
+.credit{
+    padding-left: 15px;
+    font-family: 'Netflix Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
